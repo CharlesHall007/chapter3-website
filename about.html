@@ -1,0 +1,54 @@
+ <!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Developer: (Charles)
+      Start Date: (02/23/2025) -->
+    <title>A cool webpage</title>
+    <link rel="stylesheet" type="text/css" href="css/my_styles.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+
+      <header>
+        <h1>Welcome to A Cool Webpage LLC</h1>
+      </header>
+
+      <nav>
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="products.html">Products</a></li>
+         <li><a href="about.html">About Us</a></li>
+         <li><a href="video.html">Video</a></li>
+       </ul>
+     </nav>
+
+      <section>
+
+        <h2>About Us</h2>
+
+        <!-- Responsive image block -->
+        <picture>
+          <source media="(min-width: 640px)" srcset="images/large_dapper_cat.png" />
+          <source media="(min-width: 460px)" srcset="images/medium_dapper_cat.png" />
+          <source media="(min-width: 320px)" srcset="images/small_dapper_cat.png" />
+
+          <img src="images/default_cat.png"
+               alt="A picture of a black cat with tan spots and the markings of a mustache on her face."
+               class="img_border" />
+        </picture>
+		
+
+        <p>Here's some plain text.</p>
+
+        <p>
+          <a href="index.html">Take me back</a> to the first page
+        </p>
+
+      </section>
+
+      <footer>Copyright &copy; 2026</footer>
+
+    </div>
+  </body>
+</html>
